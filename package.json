@@ -1,0 +1,13 @@
+{
+    "name": "Rolezinho",
+    "version": "1.0.0",
+    "description": "Bot Rolezinho",
+    "main": "index.js",
+    "author": "hayarant",
+    "dependencies": {
+        "discord.io": "^2.5.3",
+        "discord.js": "^13.6.0",
+        "dotenv": "^16.0.0",
+        "winston": "^3.7.2"
+    }
+}
