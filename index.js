@@ -20,7 +20,7 @@ client.on('message', msg => {
     }
 });
 
-bot.on('message', async msg => {
+client.on('message', async msg => {
   if (msg.content === '!pokedollar') {
     const request = require('request');
     const formatCurrency = require('format-currency')
