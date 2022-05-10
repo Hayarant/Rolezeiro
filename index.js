@@ -1,5 +1,5 @@
 // Carrega o arquivo .env que contem o Token do Bot
-//require('dotenv').config();
+require('/amplify/Rolezeiro/main/DISCORD_TOKEN').config();
 
 const Discord = require('discord.js');
 const {Intents} = require('discord.js');
