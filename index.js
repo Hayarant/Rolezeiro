@@ -1,5 +1,5 @@
 // Carrega o arquivo .env que contem o Token do Bot
-require('/amplify/Rolezeiro/main/DISCORD_TOKEN').config();
+require('dotenv').config({path: '/amplify/Rolezeiro/main'});
 
 const Discord = require('discord.js');
 const {Intents} = require('discord.js');
@@ -10,7 +10,7 @@ client.on('ready', () => {
 });
 
 //Realiza o login do bot com o Token do arquivo .env
-client.login(process.env.secrets.DISCORD_TOKEN);
+client.login(process.env.DISCORD_TOKEN);
 
 client.on('message', msg => {
     if (msg.content === 'ping') {
